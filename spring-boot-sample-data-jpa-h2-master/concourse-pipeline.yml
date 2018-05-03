@@ -2,7 +2,7 @@ resources:
   - name: git-repo
     type: git
     source:
-      uri: https://github.com/michl-b/spring-boot-sample-data-jpa-h2.git
+      uri: https://github.com/michl-b/url-shortener-spring-boot-h2.git
       branch: master
 
 jobs:

@@ -1,6 +1,6 @@
 .idea/
 .mvn/
-spring-boot-sample-data-jpa-h2.iml
+url-shortener-spring-boot-h2.iml
 mvnw
 mvnw.cmd
 database/
