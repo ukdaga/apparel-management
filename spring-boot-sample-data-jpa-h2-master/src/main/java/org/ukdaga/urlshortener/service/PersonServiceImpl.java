@@ -1,9 +1,9 @@
-package de.michlb.sample.service;
+package org.ukdaga.urlshortener.service;
 
-import de.michlb.sample.domain.Person;
-import de.michlb.sample.repositories.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.ukdaga.urlshortener.domain.Person;
+import org.ukdaga.urlshortener.repository.PersonRepository;
 
 import java.util.List;
 

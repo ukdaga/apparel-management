@@ -1,4 +1,4 @@
-package de.michlb.sample.domain;
+package org.ukdaga.urlshortener.domain;
 
 import java.util.HashSet;
 import java.util.Set;

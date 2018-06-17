@@ -1,8 +1,7 @@
-package de.michlb.sample.repositories;
+package org.ukdaga.urlshortener.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import de.michlb.sample.domain.Apparel;
+import org.ukdaga.urlshortener.domain.Apparel;
 
 public interface ApparelRepository extends JpaRepository<Apparel, Long> {
 }

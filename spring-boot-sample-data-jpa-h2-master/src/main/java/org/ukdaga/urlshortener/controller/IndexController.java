@@ -1,11 +1,11 @@
-package de.michlb.sample.web;
+package org.ukdaga.urlshortener.controller;
 
-import de.michlb.sample.domain.Person;
-import de.michlb.sample.service.PersonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.ukdaga.urlshortener.domain.Person;
+import org.ukdaga.urlshortener.service.PersonService;
 
 import java.util.List;
 

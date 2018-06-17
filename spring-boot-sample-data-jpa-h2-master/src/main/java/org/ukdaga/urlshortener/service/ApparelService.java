@@ -1,4 +1,4 @@
-package de.michlb.sample.service;
+package org.ukdaga.urlshortener.service;
 
 import java.util.List;
 import java.util.Set;
@@ -8,12 +8,11 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.mvc.ControllerLinkBuilder;
 import org.springframework.stereotype.Service;
-
-import de.michlb.sample.domain.Apparel;
-import de.michlb.sample.domain.ApparelSku;
-import de.michlb.sample.repositories.ApparelRepository;
-import de.michlb.sample.repositories.ApparelSkuRepository;
-import de.michlb.sample.web.ApparelController;
+import org.ukdaga.urlshortener.controller.ApparelController;
+import org.ukdaga.urlshortener.domain.Apparel;
+import org.ukdaga.urlshortener.domain.ApparelSku;
+import org.ukdaga.urlshortener.repository.ApparelRepository;
+import org.ukdaga.urlshortener.repository.ApparelSkuRepository;
 
 
 @Service

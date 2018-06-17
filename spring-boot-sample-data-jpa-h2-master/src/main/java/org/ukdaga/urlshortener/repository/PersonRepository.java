@@ -1,7 +1,7 @@
-package de.michlb.sample.repositories;
+package org.ukdaga.urlshortener.repository;
 
-import de.michlb.sample.domain.Person;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.ukdaga.urlshortener.domain.Person;
 
 /**
  * Created by mbart on 28.02.2016.

@@ -1,0 +1,231 @@
+17-06-2018 21:58:32.879 [main] ERROR o.s.b.l.LoggingApplicationListener.setLogLevel - Cannot set level: info		 for 'null'
+17-06-2018 21:58:33.050 [main] INFO  o.u.u.t.SpringBootSampleDataJpaH2ApplicationTests.logStarting - Starting SpringBootSampleDataJpaH2ApplicationTests on GH-5MJZFH2 with PID 42104 (C:\Users\E076166\git\spring-boot-sample-data-jpa-h2-master\spring-boot-sample-data-jpa-h2-master\target\test-classes started by e076166 in C:\Users\E076166\git\spring-boot-sample-data-jpa-h2-master\spring-boot-sample-data-jpa-h2-master)
+17-06-2018 21:58:33.052 [main] INFO  o.u.u.t.SpringBootSampleDataJpaH2ApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-06-2018 21:58:34.130 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@57a3af25: startup date [Sun Jun 17 21:58:34 IST 2018]; root of context hierarchy
+17-06-2018 21:58:36.963 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory.registerBeanDefinition - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+17-06-2018 21:58:37.695 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee2bdca4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-06-2018 21:58:38.815 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+17-06-2018 21:58:38.880 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17-06-2018 21:58:39.060 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {4.3.11.Final}
+17-06-2018 21:58:39.064 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+17-06-2018 21:58:39.066 [main] INFO  org.hibernate.cfg.Environment.buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+17-06-2018 21:58:39.397 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+17-06-2018 21:58:43.901 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17-06-2018 21:58:43.976 [main] INFO  o.h.h.i.a.ASTQueryTranslatorFactory.<init> - HHH000397: Using ASTQueryTranslatorFactory
+17-06-2018 21:58:44.371 [main] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000227: Running hbm2ddl schema export
+17-06-2018 21:58:44.375 [main] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000230: Schema export complete
+17-06-2018 21:58:45.471 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@57a3af25: startup date [Sun Jun 17 21:58:34 IST 2018]; root of context hierarchy
+17-06-2018 21:58:45.633 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17-06-2018 21:58:45.636 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17-06-2018 21:58:45.714 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 21:58:45.715 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 21:58:45.786 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 21:58:46.601 [main] INFO  o.u.u.t.SpringBootSampleDataJpaH2ApplicationTests.logStarted - Started SpringBootSampleDataJpaH2ApplicationTests in 14.297 seconds (JVM running for 16.803)
+17-06-2018 21:58:46.638 [Thread-4] INFO  o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@57a3af25: startup date [Sun Jun 17 21:58:34 IST 2018]; root of context hierarchy
+17-06-2018 21:58:46.703 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-06-2018 21:58:46.704 [Thread-4] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000227: Running hbm2ddl schema export
+17-06-2018 21:58:46.720 [Thread-4] ERROR o.h.tool.hbm2ddl.SchemaExport.execute - HHH000231: Schema export unsuccessful
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-191]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1468)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1443)
+	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:446)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.ProxyConnection.invoke(ProxyConnection.java:126)
+	at org.apache.tomcat.jdbc.pool.JdbcInterceptor.invoke(JdbcInterceptor.java:108)
+	at org.apache.tomcat.jdbc.pool.DisposableConnectionFacade.invoke(DisposableConnectionFacade.java:81)
+	at com.sun.proxy.$Proxy60.getAutoCommit(Unknown Source)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:52)
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:52)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:368)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:319)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:315)
+	at org.hibernate.internal.SessionFactoryImpl.close(SessionFactoryImpl.java:1366)
+	at org.hibernate.jpa.internal.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:370)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:407)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:560)
+	at com.sun.proxy.$Proxy61.close(Unknown Source)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:483)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:262)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:972)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:979)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:982)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:901)
+17-06-2018 21:58:46.732 [Thread-4] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000230: Schema export complete
+17-06-2018 21:59:18.258 [main] ERROR o.s.b.l.LoggingApplicationListener.setLogLevel - Cannot set level: info		 for 'null'
+17-06-2018 21:59:18.320 [main] INFO  o.u.u.application.Application.logStarting - Starting Application on GH-5MJZFH2 with PID 752 (C:\Users\E076166\git\spring-boot-sample-data-jpa-h2-master\spring-boot-sample-data-jpa-h2-master\target\classes started by e076166 in C:\Users\E076166\git\spring-boot-sample-data-jpa-h2-master\spring-boot-sample-data-jpa-h2-master)
+17-06-2018 21:59:18.320 [main] INFO  o.u.u.application.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-06-2018 21:59:18.585 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@157632c9: startup date [Sun Jun 17 21:59:18 IST 2018]; root of context hierarchy
+17-06-2018 21:59:19.719 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory.registerBeanDefinition - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+17-06-2018 21:59:20.896 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$431138b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-06-2018 21:59:23.073 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-06-2018 21:59:23.132 [main] INFO  o.a.catalina.core.StandardService.log - Starting service Tomcat
+17-06-2018 21:59:23.138 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.0.32
+17-06-2018 21:59:24.024 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-06-2018 21:59:24.025 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 5443 ms
+17-06-2018 21:59:25.522 [localhost-startStop-1] INFO  o.s.b.c.e.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+17-06-2018 21:59:25.533 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+17-06-2018 21:59:25.534 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17-06-2018 21:59:25.535 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17-06-2018 21:59:25.535 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+17-06-2018 21:59:25.536 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean.configure - Mapping filter: 'shallowEtagHeaderFilter' to: [/*]
+17-06-2018 21:59:26.366 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+17-06-2018 21:59:26.409 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17-06-2018 21:59:26.582 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {4.3.11.Final}
+17-06-2018 21:59:26.586 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+17-06-2018 21:59:26.593 [main] INFO  org.hibernate.cfg.Environment.buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+17-06-2018 21:59:27.088 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+17-06-2018 21:59:27.922 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17-06-2018 21:59:28.031 [main] INFO  o.h.h.i.a.ASTQueryTranslatorFactory.<init> - HHH000397: Using ASTQueryTranslatorFactory
+17-06-2018 21:59:28.226 [main] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000227: Running hbm2ddl schema export
+17-06-2018 21:59:28.230 [main] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000230: Schema export complete
+17-06-2018 21:59:28.980 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@157632c9: startup date [Sun Jun 17 21:59:18 IST 2018]; root of context hierarchy
+17-06-2018 21:59:29.156 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17-06-2018 21:59:29.158 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17-06-2018 21:59:29.217 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 21:59:29.218 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 21:59:29.290 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 21:59:30.366 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+17-06-2018 21:59:30.488 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+17-06-2018 21:59:30.497 [main] INFO  o.u.u.application.Application.logStarted - Started Application in 12.442 seconds (JVM running for 13.146)
+17-06-2018 22:00:46.555 [RMI TCP Connection(2)-192.168.1.7] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+17-06-2018 22:00:46.556 [RMI TCP Connection(2)-192.168.1.7] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@157632c9: startup date [Sun Jun 17 21:59:18 IST 2018]; root of context hierarchy
+17-06-2018 22:00:46.559 [RMI TCP Connection(2)-192.168.1.7] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+17-06-2018 22:00:46.560 [RMI TCP Connection(2)-192.168.1.7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-06-2018 22:00:46.560 [RMI TCP Connection(2)-192.168.1.7] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000227: Running hbm2ddl schema export
+17-06-2018 22:00:46.561 [RMI TCP Connection(2)-192.168.1.7] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000230: Schema export complete
+17-06-2018 22:03:41.169 [main] ERROR o.s.b.l.LoggingApplicationListener.setLogLevel - Cannot set level: info		 for 'null'
+17-06-2018 22:03:41.387 [main] INFO  o.u.u.t.SpringBootSampleDataJpaH2ApplicationTests.logStarting - Starting SpringBootSampleDataJpaH2ApplicationTests on GH-5MJZFH2 with PID 38344 (C:\Users\E076166\git\spring-boot-sample-data-jpa-h2-master\spring-boot-sample-data-jpa-h2-master\target\test-classes started by e076166 in C:\Users\E076166\git\spring-boot-sample-data-jpa-h2-master\spring-boot-sample-data-jpa-h2-master)
+17-06-2018 22:03:41.389 [main] INFO  o.u.u.t.SpringBootSampleDataJpaH2ApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-06-2018 22:03:42.852 [main] INFO  o.s.w.c.s.GenericWebApplicationContext.prepareRefresh - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@57a3af25: startup date [Sun Jun 17 22:03:42 IST 2018]; root of context hierarchy
+17-06-2018 22:03:46.459 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory.registerBeanDefinition - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+17-06-2018 22:03:47.382 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee2bdca4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-06-2018 22:03:48.662 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+17-06-2018 22:03:48.726 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17-06-2018 22:03:49.018 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {4.3.11.Final}
+17-06-2018 22:03:49.024 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+17-06-2018 22:03:49.028 [main] INFO  org.hibernate.cfg.Environment.buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+17-06-2018 22:03:49.534 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+17-06-2018 22:03:50.128 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17-06-2018 22:03:50.234 [main] INFO  o.h.h.i.a.ASTQueryTranslatorFactory.<init> - HHH000397: Using ASTQueryTranslatorFactory
+17-06-2018 22:03:50.757 [main] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000227: Running hbm2ddl schema export
+17-06-2018 22:03:50.761 [main] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000230: Schema export complete
+17-06-2018 22:03:51.950 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@57a3af25: startup date [Sun Jun 17 22:03:42 IST 2018]; root of context hierarchy
+17-06-2018 22:03:52.127 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17-06-2018 22:03:52.130 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17-06-2018 22:03:52.225 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 22:03:52.227 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 22:03:52.358 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 22:03:53.350 [main] INFO  o.u.u.t.SpringBootSampleDataJpaH2ApplicationTests.logStarted - Started SpringBootSampleDataJpaH2ApplicationTests in 12.834 seconds (JVM running for 13.835)
+17-06-2018 22:03:53.473 [Thread-4] INFO  o.s.w.c.s.GenericWebApplicationContext.doClose - Closing org.springframework.web.context.support.GenericWebApplicationContext@57a3af25: startup date [Sun Jun 17 22:03:42 IST 2018]; root of context hierarchy
+17-06-2018 22:03:53.489 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-06-2018 22:03:53.490 [Thread-4] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000227: Running hbm2ddl schema export
+17-06-2018 22:03:53.574 [Thread-4] ERROR o.h.tool.hbm2ddl.SchemaExport.execute - HHH000231: Schema export unsuccessful
+org.h2.jdbc.JdbcSQLException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-191]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1468)
+	at org.h2.jdbc.JdbcConnection.checkClosed(JdbcConnection.java:1443)
+	at org.h2.jdbc.JdbcConnection.getAutoCommit(JdbcConnection.java:446)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.jdbc.pool.ProxyConnection.invoke(ProxyConnection.java:126)
+	at org.apache.tomcat.jdbc.pool.JdbcInterceptor.invoke(JdbcInterceptor.java:108)
+	at org.apache.tomcat.jdbc.pool.DisposableConnectionFacade.invoke(DisposableConnectionFacade.java:81)
+	at com.sun.proxy.$Proxy60.getAutoCommit(Unknown Source)
+	at org.hibernate.tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.prepare(SuppliedConnectionProviderConnectionHelper.java:52)
+	at org.hibernate.tool.hbm2ddl.DatabaseExporter.<init>(DatabaseExporter.java:52)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.execute(SchemaExport.java:368)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:319)
+	at org.hibernate.tool.hbm2ddl.SchemaExport.drop(SchemaExport.java:315)
+	at org.hibernate.internal.SessionFactoryImpl.close(SessionFactoryImpl.java:1366)
+	at org.hibernate.jpa.internal.EntityManagerFactoryImpl.close(EntityManagerFactoryImpl.java:370)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.invokeProxyMethod(AbstractEntityManagerFactoryBean.java:407)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean$ManagedEntityManagerFactoryInvocationHandler.invoke(AbstractEntityManagerFactoryBean.java:560)
+	at com.sun.proxy.$Proxy61.close(Unknown Source)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.destroy(AbstractEntityManagerFactoryBean.java:483)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:262)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:972)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:979)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1006)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:982)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:901)
+17-06-2018 22:03:53.575 [Thread-4] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000230: Schema export complete
+17-06-2018 22:04:06.772 [main] ERROR o.s.b.l.LoggingApplicationListener.setLogLevel - Cannot set level: info		 for 'null'
+17-06-2018 22:04:06.860 [main] INFO  o.u.u.application.Application.logStarting - Starting Application on GH-5MJZFH2 with PID 4620 (C:\Users\E076166\git\spring-boot-sample-data-jpa-h2-master\spring-boot-sample-data-jpa-h2-master\target\classes started by e076166 in C:\Users\E076166\git\spring-boot-sample-data-jpa-h2-master\spring-boot-sample-data-jpa-h2-master)
+17-06-2018 22:04:06.861 [main] INFO  o.u.u.application.Application.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-06-2018 22:04:07.250 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@157632c9: startup date [Sun Jun 17 22:04:07 IST 2018]; root of context hierarchy
+17-06-2018 22:04:08.548 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory.registerBeanDefinition - Overriding bean definition for bean 'beanNameViewResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+17-06-2018 22:04:09.022 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$431138b5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17-06-2018 22:04:09.541 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8080 (http)
+17-06-2018 22:04:09.556 [main] INFO  o.a.catalina.core.StandardService.log - Starting service Tomcat
+17-06-2018 22:04:09.557 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.0.32
+17-06-2018 22:04:09.711 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+17-06-2018 22:04:09.711 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 2467 ms
+17-06-2018 22:04:10.247 [localhost-startStop-1] INFO  o.s.b.c.e.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+17-06-2018 22:04:10.253 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+17-06-2018 22:04:10.254 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17-06-2018 22:04:10.255 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17-06-2018 22:04:10.255 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+17-06-2018 22:04:10.256 [localhost-startStop-1] INFO  o.s.b.c.e.FilterRegistrationBean.configure - Mapping filter: 'shallowEtagHeaderFilter' to: [/*]
+17-06-2018 22:04:10.680 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+17-06-2018 22:04:10.696 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+17-06-2018 22:04:10.808 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {4.3.11.Final}
+17-06-2018 22:04:10.868 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+17-06-2018 22:04:10.871 [main] INFO  org.hibernate.cfg.Environment.buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+17-06-2018 22:04:11.127 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+17-06-2018 22:04:11.551 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+17-06-2018 22:04:11.602 [main] INFO  o.h.h.i.a.ASTQueryTranslatorFactory.<init> - HHH000397: Using ASTQueryTranslatorFactory
+17-06-2018 22:04:11.713 [main] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000227: Running hbm2ddl schema export
+17-06-2018 22:04:11.715 [main] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000230: Schema export complete
+17-06-2018 22:04:12.151 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@157632c9: startup date [Sun Jun 17 22:04:07 IST 2018]; root of context hierarchy
+17-06-2018 22:04:12.253 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17-06-2018 22:04:12.254 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17-06-2018 22:04:12.299 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 22:04:12.300 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 22:04:12.365 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17-06-2018 22:04:13.024 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+17-06-2018 22:04:13.197 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8080 (http)
+17-06-2018 22:04:13.204 [main] INFO  o.u.u.application.Application.logStarted - Started Application in 6.683 seconds (JVM running for 7.54)
+17-06-2018 22:04:33.309 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+17-06-2018 22:04:33.310 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+17-06-2018 22:04:33.333 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+17-06-2018 22:08:54.141 [RMI TCP Connection(2)-192.168.1.7] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+17-06-2018 22:08:54.141 [RMI TCP Connection(2)-192.168.1.7] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.doClose - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@157632c9: startup date [Sun Jun 17 22:04:07 IST 2018]; root of context hierarchy
+17-06-2018 22:08:54.144 [RMI TCP Connection(2)-192.168.1.7] INFO  o.s.j.e.a.AnnotationMBeanExporter.destroy - Unregistering JMX-exposed beans on shutdown
+17-06-2018 22:08:54.146 [RMI TCP Connection(2)-192.168.1.7] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+17-06-2018 22:08:54.147 [RMI TCP Connection(2)-192.168.1.7] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000227: Running hbm2ddl schema export
+17-06-2018 22:08:54.148 [RMI TCP Connection(2)-192.168.1.7] INFO  o.h.tool.hbm2ddl.SchemaExport.execute - HHH000230: Schema export complete

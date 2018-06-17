@@ -1,4 +1,4 @@
-package de.michlb.sample.domain;
+package org.ukdaga.urlshortener.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

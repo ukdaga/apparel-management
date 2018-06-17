@@ -1,29 +1,29 @@
-package de.michlb.sample.web;
+package org.ukdaga.urlshortener.controller;
 
 import java.util.List;
 import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-import org.springframework.hateoas.Link;
-import org.springframework.hateoas.mvc.ControllerLinkBuilder;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import de.michlb.sample.domain.Apparel;
-import de.michlb.sample.domain.ApparelSku;
-import de.michlb.sample.repositories.ApparelRepository;
-import de.michlb.sample.service.ApparelService;
+import org.ukdaga.urlshortener.domain.Apparel;
+import org.ukdaga.urlshortener.domain.ApparelSku;
+import org.ukdaga.urlshortener.service.ApparelService;
 
 @RestController
 public class ApparelController {
 	
 	@Autowired
 	ApparelService apparelService;
+	
+	@RequestMapping("/health")
+	public String showIndex() {
+		return "HelloWorld";
+	}
 	
 	@RequestMapping(value = "apparels" , method = RequestMethod.GET)
 	@ResponseBody

@@ -1,8 +1,8 @@
-package de.michlb.sample.service;
-
-import de.michlb.sample.domain.Person;
+package org.ukdaga.urlshortener.service;
 
 import java.util.List;
+
+import org.ukdaga.urlshortener.domain.Person;
 
 /**
  * Created by mbart on 28.02.2016.
