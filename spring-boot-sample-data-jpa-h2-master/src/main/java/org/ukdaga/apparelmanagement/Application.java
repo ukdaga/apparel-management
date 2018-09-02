@@ -1,4 +1,4 @@
-package org.ukdaga.urlshortener;
+package org.ukdaga.apparelmanagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.web.filter.ShallowEtagHeaderFilter;
-import org.ukdaga.urlshortener.domain.Apparel;
-import org.ukdaga.urlshortener.domain.Person;
-import org.ukdaga.urlshortener.repository.ApparelRepository;
-import org.ukdaga.urlshortener.repository.PersonRepository;
+import org.ukdaga.apparelmanagement.domain.Apparel;
+import org.ukdaga.apparelmanagement.domain.Person;
+import org.ukdaga.apparelmanagement.repository.ApparelRepository;
+import org.ukdaga.apparelmanagement.repository.PersonRepository;
 
 @SpringBootApplication
 @EnableJpaRepositories

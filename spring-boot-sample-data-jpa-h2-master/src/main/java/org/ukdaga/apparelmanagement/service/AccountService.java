@@ -1,4 +1,4 @@
-package org.ukdaga.urlshortener.service;
+package org.ukdaga.apparelmanagement.service;
 
 import java.util.UUID;
 
@@ -7,8 +7,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.stereotype.Service;
-import org.ukdaga.urlshortener.domain.Account;
-import org.ukdaga.urlshortener.repository.AccountRepository;
+import org.ukdaga.apparelmanagement.domain.Account;
+import org.ukdaga.apparelmanagement.repository.AccountRepository;
 
 @Service
 @EnableJpaRepositories

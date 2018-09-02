@@ -1,7 +1,7 @@
-package org.ukdaga.urlshortener.repository;
+package org.ukdaga.apparelmanagement.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.ukdaga.urlshortener.domain.Person;
+import org.ukdaga.apparelmanagement.domain.Person;
 
 /**
  * Created by mbart on 28.02.2016.

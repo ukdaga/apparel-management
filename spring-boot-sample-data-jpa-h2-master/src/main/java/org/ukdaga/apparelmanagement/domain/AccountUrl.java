@@ -1,4 +1,4 @@
-package org.ukdaga.urlshortener.domain;
+package org.ukdaga.apparelmanagement.domain;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

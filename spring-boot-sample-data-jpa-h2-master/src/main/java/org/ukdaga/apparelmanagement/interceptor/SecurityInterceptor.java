@@ -1,4 +1,4 @@
-package org.ukdaga.urlshortener.interceptor;
+package org.ukdaga.apparelmanagement.interceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;

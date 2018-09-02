@@ -1,4 +1,4 @@
-# url-shortener-spring-boot-h2
+# apparel-management-spring-boot-h2
 Demo project for Spring Boot with JPA and persisting H2 database
 
 ## Requirements
@@ -30,4 +30,4 @@ spring.thymeleaf.cache=false
 ## concourse
 fly -t example login -c http://localhost:8080
 
-fly -t example set-pipeline --pipeline url-shortener-spring-boot-h2 --config concourse-pipeline.yml   
+fly -t example set-pipeline --pipeline apparel-management-spring-boot-h2 --config concourse-pipeline.yml   

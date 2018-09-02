@@ -1,11 +1,11 @@
-package org.ukdaga.urlshortener.controller;
+package org.ukdaga.apparelmanagement.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.ukdaga.urlshortener.domain.Person;
-import org.ukdaga.urlshortener.service.PersonService;
+import org.ukdaga.apparelmanagement.domain.Person;
+import org.ukdaga.apparelmanagement.service.PersonService;
 
 import java.util.List;
 

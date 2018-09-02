@@ -1,8 +1,8 @@
-package org.ukdaga.urlshortener.service;
+package org.ukdaga.apparelmanagement.service;
 
 import java.util.List;
 
-import org.ukdaga.urlshortener.domain.Person;
+import org.ukdaga.apparelmanagement.domain.Person;
 
 /**
  * Created by mbart on 28.02.2016.

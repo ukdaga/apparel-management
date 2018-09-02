@@ -1,4 +1,4 @@
-package org.ukdaga.urlshortener.controller;
+package org.ukdaga.apparelmanagement.controller;
 
 import java.util.List;
 import java.util.Set;
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.ukdaga.urlshortener.domain.Apparel;
-import org.ukdaga.urlshortener.domain.ApparelSku;
-import org.ukdaga.urlshortener.service.ApparelService;
+import org.ukdaga.apparelmanagement.domain.Apparel;
+import org.ukdaga.apparelmanagement.domain.ApparelSku;
+import org.ukdaga.apparelmanagement.service.ApparelService;
 
 @RestController
 public class ApparelController {

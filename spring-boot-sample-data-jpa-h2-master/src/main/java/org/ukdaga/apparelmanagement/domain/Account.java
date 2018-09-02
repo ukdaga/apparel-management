@@ -1,4 +1,4 @@
-package org.ukdaga.urlshortener.domain;
+package org.ukdaga.apparelmanagement.domain;
 
 import java.util.HashSet;
 import java.util.Set;
