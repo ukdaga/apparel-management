@@ -1,7 +1,1 @@
-.idea/
-.mvn/
-apparel-management-spring-boot-h2.iml
-mvnw
-mvnw.cmd
-database/
-target/
+/bin/
