@@ -27,8 +27,9 @@ uniqueConstraints = {@UniqueConstraint(columnNames = {"REF_NAME"})})
 public class Apparel extends ResourceSupport {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO , generator = "uuid")
-	@GenericGenerator(name = "uuid" , strategy = "uuid2")
+	@JsonIgnore
+	@GeneratedValue/*(strategy = GenerationType.AUTO , generator = "uuid")
+	@GenericGenerator(name = "uuid" , strategy = "uuid2")*/
 	@Column(name = "ID")
 	private Long apparelId;
 	
